@@ -18,7 +18,7 @@ Basically what you are doing there is Changing the Directory (hence "cd") to the
 <br> 4. WINDOWS: Next type this in the command prompt and hit return: ``dir``
 MAC: Next type this in the terminal and hit return: ``ls``
 <br> 5. You should then get a list all the files and folder in that directory so you can confirm the files located there are the same as here.
-<br> 6. At the new prompt, we're going to tell it to launch Jupyter notebooks by type the following and then hitting return: ``jupyter notebook``
+<br> 6. At the new prompt, we're going to tell it to launch Jupyter notebooks by typing the following and then hitting return: ``jupyter notebook``
 <br> 7. Some things should log in the command prompt window and then it should automatically launch a new webpage in your default browser (usually at this address: <a href="http://localhost:8888/tree"> http://localhost:8888/tree</a>).
 <br> 8. In that new browser window, click the file called 01 - Python and Pandas-Introduction.ipynb and hopefully it will launch a new tab with that file.
 <br> 9. Go through the notebook and run the code by highlighting the cell block and hitting run (->).
