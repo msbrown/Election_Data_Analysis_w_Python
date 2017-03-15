@@ -8,7 +8,7 @@ Before you can download and use the notebooks, I recommend you install Anaconda 
 ## To Start the Notebooks
 Once you have Anaconda installed, you need a little bit of command line fun to get things up and running.
 
-1. Download the attached files, uncompress them and note where the unzipped folder is located.
+<br>1. Download the attached files, uncompress them and note where the unzipped folder is located.
 <br> 2.
 WINDOWS: Open up a command prompt window (Type cmd in windows search and hit return and it usually opens a new black window).
 MAC: Open a new window in Terminal.
@@ -26,17 +26,17 @@ MAC: Next type this in the terminal and hit return: ``ls``
 
 ### Data folder
 
-Although I don't recommend keeping your data in a repository, I have done it here for the purpose of our shared use. In the data directory you'll find 2 of the examples used in the notebooks. For notebook number 02, you'll need to download the three larger files from the dropbox link provided in that notebook.
+Although I don't recommend keeping your data in a repository, I have done it here for the purpose of our shared use. In the data directory you'll find 2 of the examples used in the notebooks. For notebook 02 (voter list), you'll need to download the three larger files from the dropbox link provided in that notebook and save them in your data folder (they were too large to host on github).
 
 ## Table of Contents
 
-* [Notebook 1: 01 - Introduction to Python and Pandas](https://github.com/msbrown/Election_Data_Analysis_w_Python/C01 - Python and Pandas-Introduction.ipynb)
+* [Notebook 1: 01 - Introduction to Python and Pandas](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/C01 - Python and Pandas-Introduction.ipynb)
  <br> Introduction to DataFrames, viewing and filtering data, renaming and dropping columns, and quick pivot tables.
-* [Notebook 2: Python and Pandas- Summarizing Voter List Data](/02 - Python and Pandas-Summarizing Voter List Data_v1.7.ipynb)
+* [Notebook 2: Python and Pandas- Summarizing Voter List Data](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/02 - Python and Pandas-Summarizing Voter List Data_v1.7.ipynb)
  <br> Combining three Comma-Separated files (CSV) into 1 master file, demonstrating how efficiently Python handles a large (millions of records) dataset. Then a quick tour through common tasks you perform on a voter list: Determining duplicates, summarizing the data at a higher (geographic) level and saving that dataset for analysis in a spreadsheet program. Also a quick bit on histograms (plots).
-* [Notebook 3: Extra-Voter_List--handling_dates.ipynb](/03 - Extra-Voter_List--handling_dates.ipynb)
+* [Notebook 3: Extra-Voter_List--handling_dates.ipynb](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/03 - Extra-Voter_List--handling_dates.ipynb)
   <br> Some extra notes to help you troubleshoot dates (in Voter Lists). Takes a variable like the birthdate which may be stored as an (incorrect) data type and convert it to the proper date format for analyzing so you can calculate age based on a specified date (e.g., election day).
-* [Notebook 4: 04 - Facebook_scraper](/04 - Facebook_scraper_v4.ipynb)
+* [Notebook 4: 04 - Facebook_scraper](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/04 - Facebook_scraper_v4.ipynb)
   <br> This notebook advises you to create a Facebook App ID & Secret. Then it uses that information and Facebook's Graph API (v 2.6) to scrape all the posts and comments of a Facebook *Public* Page (or Group). It also captures the related metadata, including post message, post links, and counts of each reaction on the post. All this data is exported as a CSV, so it can be imported into an analysis program like Excel.
 
 
@@ -47,5 +47,5 @@ I plan to add at least two more notebooks for scraping data from Twitter account
 If you find any issues in these code examples, feel free to submit an Issue or Pull Request. Or reach out to me on Twitter @animatedroamer or here on GitHub.
 
 ### Credits and Many Thanks
-This series of notebooks relied heavily on and was inspired by  <a href="https://github.com/jackiekazil/data-wrangling">jackiekazil's code</a> and great book (and video series) Data Wrangling with Python. It was also inspired by <a href="https://github.com/GusSand/itp_talk_2016">Gustavo Sandoval and his ITP Camp session</a> where he gave a lovely overview of the Pandas library.  The Facebook scraper is really just <a href="https://github.com/minimaxir/facebook-page-post-scraper">Max Woolf's</a> code in a notebook format.
+This series of notebooks relied heavily on and was inspired by  <a href="https://github.com/jackiekazil/data-wrangling">Jackie Kazil's code</a> and great book (and video series) Data Wrangling with Python. It was also inspired by <a href="https://github.com/GusSand/itp_talk_2016">Gustavo Sandoval and his ITP Camp session</a> where he gave a lovely overview of the Pandas library.  The Facebook scraper is really just <a href="https://github.com/minimaxir/facebook-page-post-scraper">Max Woolf's</a> code in a notebook format.
 <br>The idea to include it here comes from a great suggestion by <a href="https://github.com/lisoffsky">Mr. Lisovsky</a> that election monitoring organizations are often trying to track what events campaigns are having (and where) and that the scraper might make it easier for them.
