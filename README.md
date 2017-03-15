@@ -30,13 +30,13 @@ Although I don't recommend keeping your data in a repository, I have done it her
 
 ## Table of Contents
 
-* [Notebook 1: 01 - Introduction to Python and Pandas](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/C01 - Python and Pandas-Introduction.ipynb)
+* [Notebook 1: 01 - Introduction to Python and Pandas](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/01%20-%20Python%20and%20Pandas-Introduction.ipynb)
  <br> Introduction to DataFrames, viewing and filtering data, renaming and dropping columns, and quick pivot tables.
-* [Notebook 2: Python and Pandas- Summarizing Voter List Data](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/02 - Python and Pandas-Summarizing Voter List Data_v1.7.ipynb)
+* [Notebook 2: Python and Pandas- Summarizing Voter List Data](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/02%20-%20Python%20and%20Pandas-Summarizing%20Voter%20List%20Data_v1.7.ipynb)
  <br> Combining three Comma-Separated files (CSV) into 1 master file, demonstrating how efficiently Python handles a large (millions of records) dataset. Then a quick tour through common tasks you perform on a voter list: Determining duplicates, summarizing the data at a higher (geographic) level and saving that dataset for analysis in a spreadsheet program. Also a quick bit on histograms (plots).
-* [Notebook 3: Extra-Voter_List--handling_dates.ipynb](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/03 - Extra-Voter_List--handling_dates.ipynb)
+* [Notebook 3: Extra-Voter_List--handling_dates.ipynb](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/03%20-%20Extra-Voter_List--handling_dates.ipynb)
   <br> Some extra notes to help you troubleshoot dates (in Voter Lists). Takes a variable like the birthdate which may be stored as an (incorrect) data type and convert it to the proper date format for analyzing so you can calculate age based on a specified date (e.g., election day).
-* [Notebook 4: 04 - Facebook_scraper](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/04 - Facebook_scraper_v4.ipynb)
+* [Notebook 4: 04 - Facebook_scraper](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/04%20-%20Facebook_scraper_v4.ipynb)
   <br> This notebook advises you to create a Facebook App ID & Secret. Then it uses that information and Facebook's Graph API (v 2.6) to scrape all the posts and comments of a Facebook *Public* Page (or Group). It also captures the related metadata, including post message, post links, and counts of each reaction on the post. All this data is exported as a CSV, so it can be imported into an analysis program like Excel.
 
 
