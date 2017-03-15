@@ -2,7 +2,7 @@
 
 Welcome to the code repository for the workshop **A Gentle Introduction to using Python for Analyzing Election Data** These notebooks are meant for those comfortable with data analysis concepts and have used a spreadsheet program like Excel to analyze election data but who want to get a sense of the power of Python to analyze larger (i.e., 5 million or more records) datasets and scrape data from parties, election commission's social media pages. The goal is to give you some concrete examples for getting started with Python and Pandas. And maybe overcome some of the fear of code.
 
-## Requires Anaconda (Pythong version 2.7) Installation   
+## Requires Anaconda (Python version 2.7) Installation   
 Before you can download and use the notebooks, I recommend you install Anaconda (Python version 2.7) on your computer. Anaconda comes with most of the libraries you'll want to use with Python.
 
 ## To Start the Notebooks
