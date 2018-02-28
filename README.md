@@ -2,7 +2,7 @@
 
 Welcome to the code repository for the workshop **A Gentle Introduction to using Python for Analyzing Election Data** These notebooks are meant for those comfortable with data analysis concepts and have used a spreadsheet program like Excel to analyze election data but who want to get a sense of the power of Python to analyze larger (i.e., 5 million or more records) datasets and scrape data from parties, election commission's social media pages. The goal is to give you some concrete examples for getting started with Python and Pandas (and maybe overcome some of the intimidation of code). A tutorial based on these notebooks was given at the Data Academy for the <a href="http://openelectiondata.net/en/">Open Election Data Initiative</a>, an initiative that promotes accountability in elections through the use of open election data.
 
-## Requires Anaconda (Python version 2.7) Installation   
+## Requires Anaconda with Python version 2.7 (currently migrating to 3.6) Installation   
 Before you can download and use the notebooks, I recommend you install <a href="https://www.continuum.io/downloads">Anaconda (Python version 2.7)</a> on your computer. Anaconda comes with most of the libraries you'll want to use with Python.
 
 ## To Start the Notebooks
@@ -34,13 +34,15 @@ MAC: Next type this in the terminal and hit return: ``ls``
   <br> Some extra notes to help you troubleshoot dates (in Voter Lists). Takes a variable like the birthdate which may be stored as an (incorrect) data type and convert it to the proper date format for analyzing so you can calculate age based on a specified date (e.g., election day).
 * [Notebook 4: 04 - Facebook Public Page/Group Scraper](https://github.com/msbrown/Election_Data_Analysis_w_Python/blob/master/04%20-%20Facebook_scraper_v4.ipynb)
   <br> This notebook advises you to create a Facebook App ID & Secret. Then it uses that information and Facebook's Graph API (v 2.6) to scrape all the posts and comments of a Facebook *Public* Page (or Group). It also captures the related metadata, including post message, post links, and counts of each reaction on the post. All this data is exported as a CSV, so it can be imported into an analysis program like Excel.
+* Twitter Account Scraper
+<br> Two notebooks in process: One that makes use of the TWitter API and a separate one that is 'browser' based and makes use of Selenium. 
 
 ### Data folder
 
   Although I don't recommend keeping your data in a repository, I have done it here for the purpose of our shared use. In the data directory you'll find 2 of the examples used in the notebooks. For notebook 02 (voter list), you'll need to download the three larger files from the dropbox link provided in that notebook and save them in your data folder (they were too large to host on github).
 
 ### Coming soon
-I plan to add at least two more notebooks for scraping data from Twitter accounts. Please let me know if you have other needs or ideas.
+Currently migrating the code to Python 3.6, adding two notebooks for scraping Twitter, and one notebook for iterating through and saving the comments for posts (of a public/group page). Please let me know if you have other needs or ideas.
 
 ### Corrections, Questions, or Suggestions?
 If you find any issues in these code examples, feel free to submit an Issue or Pull Request. Or reach out to me on Twitter <a href="https://twitter.com/animatedroamer">@animatedroamer</a> or here on GitHub.
